@@ -23,7 +23,7 @@ const BananaList = () => {
       setNewBananaPrice(0);
     }
   };
-
+ 
   const handleRemoveBanana = (bananaId) => {
     const updatedBananas = bananas.filter((banana) => banana.id !== bananaId);
     setBananas(updatedBananas);
